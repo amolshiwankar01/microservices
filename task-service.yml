@@ -22,6 +22,8 @@ eureka:
 
 
 server:
-  port: 8083
+  port: 8083   
 
 
+application:
+  version: task-service-v1  
