@@ -1,10 +1,10 @@
-#spring:
-#  application:
-#    name: api-gateway
-#  cloud:
-#    config:
-#      uri:
-#        - http://localhost:9000
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      uri:
+        - http://localhost:9000
 
 zuul:
   routes:
