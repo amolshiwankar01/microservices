@@ -31,4 +31,4 @@ server:
   port: 8082
   
 application:
-  version: user-service-v2  
+  version: user-service-v3  
