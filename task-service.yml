@@ -26,4 +26,4 @@ server:
 
 
 application:
-  version: task-service-v3  
+  version: task-service-v4  
