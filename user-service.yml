@@ -33,9 +33,12 @@ server:
 application:
   version: user-service-v4  
   
-#logs
+#Logger
 logging:
-    file: /logs/elk_logs.log
+  level:
+    com.microservice: info
+  file:
+    name: logs/elk_logs.log
   
   
 
