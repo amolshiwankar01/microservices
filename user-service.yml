@@ -33,6 +33,11 @@ server:
 application:
   version: user-service-v4  
   
+#logs
+logging:
+    file: /logs/elk_logs.log
+  
+  
 
 # #timeout
 # hystrix: 
