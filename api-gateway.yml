@@ -15,16 +15,6 @@ zuul:
     task-service:
       path: /task-service/**
       service-id: task-service
-   #zuul_timout   
-  ignoredServices: '*'
-   host:
-      time-to-live: -1
-      connect-timeout-millis: 5000
-      max-per-route-connections: 10000
-      max-total-connections: 5000
-      socket-timeout-millis: 60000
-   semaphore:
-      max-semaphores: 500
    
 
 #Eureka
@@ -54,15 +44,15 @@ ribbon:
       enabled: true
 
 
-# zuul:
-#    ignoredServices: '*'
-#    host:
-#       time-to-live: -1
-#       connect-timeout-millis: 5000
-#       max-per-route-connections: 10000
-#       max-total-connections: 5000
-#       socket-timeout-millis: 60000
-#    semaphore:
-#       max-semaphores: 500
+zuul:
+   ignoredServices: '*'
+   host:
+      time-to-live: -1
+      connect-timeout-millis: 5000
+      max-per-route-connections: 10000
+      max-total-connections: 5000
+      socket-timeout-millis: 60000
+   semaphore:
+      max-semaphores: 500
 
 
